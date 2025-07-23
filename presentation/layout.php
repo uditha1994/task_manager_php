@@ -15,6 +15,13 @@
     <?php include 'presentation/partials/header.php' ?>
 
     <div class="container mt-5">
+        <?php if (isset($_GET['message'])): ?>
+            <?= $_GET['message'] ?>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+        <?php endif; ?>
+    </div>
+
+    <div class="container mt-5">
         <div class="card shadow-sm">
             <div class="card-body">
                 <?php

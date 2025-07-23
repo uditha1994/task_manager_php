@@ -57,8 +57,8 @@ class Task
     public function create()
     {
         $query = "INSERT INTO $this->table
-        SET title=:title, `description`=:`description`,
-        due_date=:due_date, `status`=:`status`";
+        SET title=:title, description=:description,
+        due_date=:due_date, status=:status";
 
         $stmt = $this->conn->prepare($query);
 
