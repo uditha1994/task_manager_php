@@ -4,7 +4,7 @@
             <h1 class="h3 mb-0">
                 <i class="fas fa-tasks me-2"></i>Task Manager
             </h1>
-            <a href="" class="btn btn-light">
+            <a href="index.php?action=create" class="btn btn-light">
                 <i class="fas fa-plus me-1"></i>New Task
             </a>
         </div>
