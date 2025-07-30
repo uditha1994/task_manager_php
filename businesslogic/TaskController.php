@@ -14,6 +14,7 @@ class TaskController
 
     public function index()
     {
+        $tasks = $this->taskModel->getAll();
         require_once __DIR__ . '/../presentation/layout.php';
     }
 
