@@ -50,7 +50,7 @@
                                 <a href="#" class="btn btn-outline-primary">
                                     <i class="fas fa-edit"></i>
                                 </a>
-                                <a href="#" class="btn btn-outline-danger" onclick="return confirm('Are you sure??')">
+                                <a href="index.php?action=delete&id=<?= $task['id'] ?>" class="btn btn-outline-danger" onclick="return confirm('Are you sure??')">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </div>
